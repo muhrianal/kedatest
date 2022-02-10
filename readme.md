@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 python manage.py createsuperuser
 ```
-4. Run the app (migrate if first, of course:v )
+4. Run the app (migrate it first, of course:v )
 ```
 python manage.py makemigrations
 python manage.py migrate
