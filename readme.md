@@ -20,7 +20,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 5. Go to the admin page, login with superuser account you just made and make at least one Supplier account there
-6. Go to home (https://localhost:8000) and you'll see the API Overview there
+6. Go to home http://localhost:8000 and you'll see the API Overview there
 7. You can use all of the API now
 
 
@@ -54,3 +54,5 @@ coverage html
 
 3. The ERD 
 ![ERD](./erd_db.jpg "ERD for Database")
+
+note on ERD: The material type is basically an attribute here, since it only has three options (Fabric, Jeans, Cotton). But it can also be a separated entity if needed like when you have a lot of options and you can CRUD on it.
