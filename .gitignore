@@ -1,0 +1,6 @@
+staticfiles/
+__pycache__/
+env/
+
+.coverage
+.DS_Store
