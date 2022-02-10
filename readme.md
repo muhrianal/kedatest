@@ -15,8 +15,10 @@ pip install -r requirements.txt
 ```
 python manage.py createsuperuser
 ```
-4. Run the app
+4. Run the app (migrate if first, of course:v )
 ```
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver
 ```
 5. Go to the admin page, login with superuser account you just made and make at least one Supplier account there
